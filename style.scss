@@ -158,3 +158,94 @@
 	padding-top: 100px;
 	padding-left: 900px;
 }
+
+.verse img {
+	width: 30%;
+	padding-top: 120px;
+	padding-left: 900px;
+	background-color: pink;
+	opacity.5%;
+}
+
+.music {
+	background-color: #DFC87D;
+	height: 100vh;
+}
+
+.picture3 img {
+	height: 40vh;
+	width: 30%;
+	padding-left: 10px;
+	padding-top: 10px;
+	opacity: .8;
+}
+
+.picture3 img {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+
+.musicname {
+	padding-bottom: 185px;
+	padding-left: 25px;
+	position: absolute;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 79px;
+    font-family: Drybrush;
+    color: white;
+}
+
+.text {
+
+}
+
+.me {
+	background-color: pink;
+	height: 100vh;
+}
+.picture4 img {
+	height: 40vh;
+	width: 30%;
+	padding-left: 10px;
+	padding-top: 10px;
+	opacity: .8;
+} 
+
+.text4 {
+
+}
+
+.text5 {
+    /* Chrome, Safari, Opera */
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;    
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-color: brown;
+
+    /* Firefox */
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;    
+    -moz-column-rule-style: solid;
+    -moz-column-rule-color: brown;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: brown;
+}
