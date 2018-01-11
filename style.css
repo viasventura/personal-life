@@ -1,23 +1,67 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
+@font-face {
+  font-family: Drybrush;
+  src: url(Dry-Brush.ttf); }
+.banner img {
+  height: 100vh;
+  width: 228vh;
+  position: relative;
+  background-color: pink;
+  opacity: .6; }
 
-Backtrace:
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `read'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
-C:/Ruby23-x64/bin/sass:22:in `load'
-C:/Ruby23-x64/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
+.via {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: Drybrush;
+  color: brown;
+  opacity: .9; }
+
+.pink {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-content: space-around;
+  height: 10vh;
+  width: 228vh;
+  background-color: pink; }
+
+.travel {
+  background-color: #DFC87D;
+  height: 100vh; }
+
+.picture1 img {
+  height: 35%;
+  width: 30%;
+  padding-left: 10px; }
+
+.travelname {
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  top: 130%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 79px;
+  font-family: Drybrush;
+  color: white;
+  opacity: .9; }
+
+}
+
+.text1 p {
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  top: 130%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 79px;
+  font-family: Drybrush;
+  color: white;
+  opacity: .9; }
+
+}
+
+/*# sourceMappingURL=style.css.map */
