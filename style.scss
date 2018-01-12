@@ -40,65 +40,42 @@
 		text-decoration: none;
 }
 
-.travel {
+.me {
 	background-color: #DFC87D;
 	height: 100vh;
 }
-
-.picture1 img {
-	height: 40%;
+.picture4 img {
+	border-radius: 50%;
+	height: 40vh;
 	width: 30%;
 	padding-left: 10px;
 	padding-top: 10px;
-	opacity: .7;
-}
-
-.picture1 img {
-    width: 400px;
-    height: 200px;
-    position: relative;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s infinite;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 600px;}
-}
-
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 600px;}
-}
-
-
-.travelname {
-	padding-top: 10px;
-	padding-left: 10px;
-	position: absolute;
-    top: 130%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    font-size: 79px;
-    font-family: Drybrush;
-    color: white;
-	opacity: .9;
+	opacity: .8;
 } 
 
-.text1 {
-	position: absolute;
-	font-family: 'Crafty Girls', cursive;
-	text-shadow: 2px 2px white;
-	border-style: solid;
-	border-color: white;
+.text4 {
 
 }
 
-.travelname {
-	  font-family: Drybrush;
-	  display: flex;
+.text5 {
+    /* Chrome, Safari, Opera */
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;    
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-color: brown;
+
+    /* Firefox */
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;    
+    -moz-column-rule-style: solid;
+    -moz-column-rule-color: brown;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: brown;
 }
+
 
 .lifestyle {
 	background-color: pink;
@@ -172,6 +149,19 @@
 	height: 100vh;
 }
 
+.musicname {
+	padding-bottom: 180px;
+	padding-left: 150px;
+	position: absolute;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 79px;
+    font-family: Drybrush;
+    color: white;
+
+}
+
+
 .picture3 img {
 	height: 40vh;
 	width: 30%;
@@ -199,8 +189,48 @@
     to {left: 600px;}
 }
 
+.text3 {
+	position: absolute;
+	font-family: 'Crafty Girls', cursive;
+	text-shadow: 2px 2px white;
+	border-style: solid;
+    border-color: white;
+    padding-left: 50px;
+}
 
-.musicname {
+.picture1 img {
+	height: 40%;
+	width: 30%;
+	padding-left: 10px;
+	padding-top: 10px;
+	opacity: .7;
+}
+
+.picture1 img {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+.travel {
+	background-color: pink;
+	height: 100vh;
+}
+
+.travelname {
 	padding-bottom: 185px;
 	padding-left: 25px;
 	position: absolute;
@@ -209,43 +239,18 @@
     font-size: 79px;
     font-family: Drybrush;
     color: white;
-}
-
-.text {
-
-}
-
-.me {
-	background-color: pink;
-	height: 100vh;
-}
-.picture4 img {
-	height: 40vh;
-	width: 30%;
-	padding-left: 10px;
-	padding-top: 10px;
-	opacity: .8;
 } 
 
-.text4 {
+.text1 {
+	position: absolute;
+	font-family: 'Crafty Girls', cursive;
+	text-shadow: 2px 2px white;
+	border-style: solid;
+	border-color: white;
 
 }
 
-.text5 {
-    /* Chrome, Safari, Opera */
-    -webkit-column-count: 3;
-    -webkit-column-gap: 40px;    
-    -webkit-column-rule-style: solid;
-    -webkit-column-rule-color: brown;
-
-    /* Firefox */
-    -moz-column-count: 3;
-    -moz-column-gap: 40px;    
-    -moz-column-rule-style: solid;
-    -moz-column-rule-color: brown;
-
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-color: brown;
+.travelname {
+	  font-family: Drybrush;
+	  display: flex;
 }
