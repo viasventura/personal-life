@@ -18,9 +18,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: 200px;
     font-family: Drybrush;
-    color: brown;
+    color: #236863;
 	opacity: .9;
 
 }
@@ -32,21 +32,25 @@
 	align-content: space-around;
 	height: 10vh;
 	width: 100%;
-	background-color: pink;
+	background-color: skyblue;
 
 }
 
 .pink a {
-		text-decoration: none;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Crafty Girls', cursive;
+
 }
 
 .me {
-	background-color: #DFC87D;
+	background-color: pink;
 	height: 100vh;
 }
 .picture4 img {
-	border-radius: 50%;
-	height: 40vh;
+	border-radius: 30%;
+	height: 45vh;
 	width: 30%;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -55,33 +59,23 @@
 
 .text4 {
 	text-align: center;
+	font-family: 'Crafty Girls', cursive;
     text-transform: uppercase;
-    color: #4CAF50;
+    color: #236863;;
+
 }
 
 .text5 {
-    /* Chrome, Safari, Opera */
-    -webkit-column-count: 3;
-    -webkit-column-gap: 40px;    
-    -webkit-column-rule-style: solid;
-    -webkit-column-rule-color: brown;
-
-    /* Firefox */
-    -moz-column-count: 3;
-    -moz-column-gap: 40px;    
-    -moz-column-rule-style: solid;
-    -moz-column-rule-color: brown;
-
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-color: brown;
+	text-align: center;
+	font-family: 'Crafty Girls', cursive;
+	text-shadow: 2px 2px white;
+	padding: 6px;
+    letter-spacing: 3px;
 }
 
-
 .lifestyle {
-	background-color: #DFC87D;
-	height: 100vh;
+	background-color: skyblue;
+	height: 120vh;
 	width 221vh;
 }
 .picture2 img {
@@ -117,10 +111,9 @@
 	position: absolute;
 	font-family: 'Crafty Girls', cursive;
 	text-shadow: 2px 2px white;
-	border-style: solid;
 	padding: 6px;
-    border-color: white;
     letter-spacing: 3px;
+    text-align: center;
 
 }
 
@@ -157,8 +150,7 @@ border-radius: 15px 50px 30px;
 	position: absolute;
 	font-family: 'Crafty Girls', cursive;
 	text-shadow: 2px 2px white;
-	border-style: solid;
-    border-color: white;
+	text-align: center;
     padding-left: 50px;
 }
 
@@ -191,8 +183,8 @@ border-radius: 15px 50px 30px;
 }
 
 .travel {
-	background-color: #DFC87D;
-	height: 100vh;
+	background-color: pink;
+	height: 200vh;
 }
 
 .travelname {
@@ -210,9 +202,8 @@ border-radius: 15px 50px 30px;
 	position: absolute;
 	font-family: 'Crafty Girls', cursive;
 	text-shadow: 2px 2px white;
-	border-style: solid;
-	padding: 6px;
-	border-color: white;
+	text-align: center;
+	padding: 6px;	
 	letter-spacing: 3px;
 
 }
@@ -225,22 +216,39 @@ border-radius: 15px 50px 30px;
 .friends img {
 	border-radius: 15px 50px 30px;
 	height: 45%;
-	width: 30%;
+	width: 40%;
 	padding-top: 126px;
-	padding-left: 900px;
+	padding-left: 400px;
 }
 
 .text6 {
 	position: absolute;
 	font-family: 'Crafty Girls', cursive;
 	text-shadow: 2px 2px white;
-	border-style: solid;
+	text-align: center;
 	padding: 6px;
-	border-color: white;
 	letter-spacing: 3px;
 }
 
 .contact {
 	background-color: white;
 	height: 100vh;
+}
+
+.friend2 img {
+	border-radius: 15px 50px 30px;
+	width: 40%;
+	padding-left: 391px;
+	padding-top: 88px;
+	opacity: .7;
+}
+
+.contact {		
+	background-color: skyblue;
+	height: 100vh;
+}
+
+.conbanner h1 {
+	color: #236863;
+
 }
