@@ -322,3 +322,13 @@ a:hover {
 	background-color: skyblue;
 	letter-spacing:3px;
 }
+
+footer {
+	background-color:skyblue;
+	display: flex; 
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 30px;
+}
